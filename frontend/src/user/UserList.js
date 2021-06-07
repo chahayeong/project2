@@ -1,3 +1,5 @@
+import React from 'react'
+
 const UserList = () => {
     return(
         <>
@@ -6,4 +8,4 @@ const UserList = () => {
 }
 
 
-export default UserList;
+export default UserList
