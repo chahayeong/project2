@@ -1,7 +1,6 @@
-import React from 'react'
 import {Route} from "react-router-dom"
-import { Login, Signup, UserDetail, UserEdit, UserList} from 'user/index'
-import { Counter } from 'counter/index'
+import { Login, SignUp, UserDetail, UserEdit, UserList} from './user/index'
+import { Counter } from './counter/index'
 import { Home } from './common/index'
 
 
@@ -17,6 +16,6 @@ const App = () => {
       <Route exact path='/signup' component={SignUp}/>
 
     </div>)
-}
+} 
 
 export default App
